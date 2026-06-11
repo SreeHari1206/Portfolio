@@ -11,3 +11,20 @@ function closeProjects() {
     document.body.style.overflow = "auto";
 
 }
+
+
+// Attach event listener to Projects link
+
+document.getElementById("projectsLink").addEventListener(
+
+    "click",
+
+    function(event){
+
+        event.preventDefault();
+
+        openProjects();
+
+    }
+
+);
