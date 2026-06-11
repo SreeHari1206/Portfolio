@@ -1,0 +1,90 @@
+```css
+body{
+font-family:Segoe UI;
+margin:0;
+background:#f4f7fb;
+color:#333;
+}
+
+header{
+background:#0c2340;
+color:white;
+padding:30px;
+text-align:center;
+}
+
+nav{
+margin-top:20px;
+}
+
+nav a{
+color:white;
+text-decoration:none;
+margin:20px;
+font-size:18px;
+}
+
+.hero{
+padding:60px;
+text-align:center;
+}
+
+.hero h2{
+font-size:42px;
+color:#0c2340;
+}
+
+.section-title{
+text-align:center;
+margin-bottom:40px;
+color:#0c2340;
+}
+
+.card{
+width:80%;
+margin:auto;
+background:white;
+border-radius:15px;
+overflow:hidden;
+box-shadow:0 5px 20px rgba(0,0,0,0.15);
+transition:.3s;
+}
+
+.card:hover{
+transform:translateY(-10px);
+}
+
+.card img{
+width:100%;
+}
+
+.card-content{
+padding:30px;
+}
+
+.tags span{
+background:#0c2340;
+color:white;
+padding:8px 15px;
+border-radius:20px;
+margin-right:10px;
+}
+
+.button{
+display:inline-block;
+margin-top:25px;
+padding:15px 30px;
+background:#0066cc;
+color:white;
+text-decoration:none;
+border-radius:8px;
+}
+
+footer{
+background:#0c2340;
+color:white;
+text-align:center;
+padding:20px;
+margin-top:80px;
+}
+```
