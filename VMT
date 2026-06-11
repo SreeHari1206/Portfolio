@@ -1,0 +1,97 @@
+```html
+<!DOCTYPE html>
+<html>
+<head>
+
+<title>MBD and FEA of Extendable Trailer</title>
+
+<link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+<header>
+
+<h1>MBD and FEA of Extendable Trailer</h1>
+
+</header>
+
+<section class="hero">
+
+<img src="images/trailer.png" width="80%">
+
+</section>
+
+
+<section class="card">
+
+<div class="card-content">
+
+<h2>Project Overview</h2>
+
+<p>
+
+The objective of this project is to analyze the trailer under specified load and boundary conditions and perform multibody dynamics analysis to evaluate structural integrity and dynamic performance.
+
+</p>
+
+<h2>Software Used</h2>
+
+<ul>
+
+<li>HyperMesh</li>
+
+<li>OptiStruct</li>
+
+<li>HyperView</li>
+
+<li>MotionView</li>
+
+</ul>
+
+
+<h2>Analyses Performed</h2>
+
+<ul>
+
+<li>Linear Static Analysis</li>
+
+<li>Nonlinear Static Analysis</li>
+
+<li>Modal Analysis</li>
+
+<li>Multibody Dynamics Analysis</li>
+
+</ul>
+
+
+<h2>Deliverables</h2>
+
+<ul>
+
+<li>Stress Distribution</li>
+
+<li>Deflection Results</li>
+
+<li>Modal Frequencies</li>
+
+<li>MBD Performance Evaluation</li>
+
+<li>Design Recommendations</li>
+
+</ul>
+
+</div>
+
+</section>
+
+<footer>
+
+Charan Reddy | CAE Analyst
+
+</footer>
+
+</body>
+</html>
+```
