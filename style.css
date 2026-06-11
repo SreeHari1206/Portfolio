@@ -393,3 +393,77 @@ color:white;
 
 }
 ```
+
+/* Fade Animation */
+
+.glass-card,
+.card{
+
+opacity:0;
+
+transform:translateY(80px);
+
+transition:all 1s ease;
+
+}
+
+
+.show{
+
+opacity:1;
+
+transform:translateY(0);
+
+}
+
+
+/* Overlay Animation */
+
+.project-overlay{
+
+opacity:0;
+
+transition:0.5s;
+
+}
+
+
+.project-overlay[style*="flex"]{
+
+opacity:1;
+
+}
+
+
+/* Scrollbar */
+
+::-webkit-scrollbar{
+
+width:10px;
+
+}
+
+::-webkit-scrollbar-track{
+
+background:#030712;
+
+}
+
+::-webkit-scrollbar-thumb{
+
+background:#0ea5e9;
+
+border-radius:10px;
+
+}
+
+
+/* Selection Color */
+
+::selection{
+
+background:#0ea5e9;
+
+color:white;
+
+}
