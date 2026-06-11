@@ -15,15 +15,13 @@ function closeProjects() {
 
 // Attach event listener to Projects link
 
-document.getElementById("projectsLink").addEventListener(
+document.getElementById("closeProjectsBtn").addEventListener(
 
     "click",
 
-    function(event){
+    function(){
 
-        event.preventDefault();
-
-        openProjects();
+        closeProjects();
 
     }
 
