@@ -9,160 +9,93 @@
 
 <title>Charan Reddy | CAE Analyst</title>
 
-<style>
+<link rel="stylesheet" href="style.css">
 
-html{
-scroll-behavior:smooth;
-}
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com">
 
-body{
-margin:0;
-font-family:'Segoe UI';
-background:#f4f7fb;
-color:#333;
-}
-
-header{
-height:100vh;
-background:linear-gradient(135deg,#081b33,#0f4c81);
-display:flex;
-justify-content:center;
-align-items:center;
-text-align:center;
-color:white;
-padding:0 20px;
-}
-
-.hero h1{
-font-size:70px;
-margin-bottom:10px;
-}
-
-.hero h2{
-font-weight:400;
-font-size:30px;
-color:#d4e4ff;
-}
-
-.hero p{
-max-width:850px;
-line-height:1.8;
-font-size:18px;
-margin:auto;
-margin-top:30px;
-}
-
-.location{
-margin-top:25px;
-font-size:18px;
-}
-
-.scroll{
-margin-top:50px;
-font-size:18px;
-color:#cddfff;
-}
-
-section{
-padding:100px 10%;
-}
-
-.section-title{
-font-size:40px;
-color:#0a2342;
-margin-bottom:50px;
-text-align:center;
-}
-
-.about{
-background:white;
-box-shadow:0px 5px 20px rgba(0,0,0,0.1);
-border-radius:20px;
-padding:50px;
-}
-
-.project-card{
-background:white;
-margin-bottom:70px;
-border-radius:20px;
-overflow:hidden;
-box-shadow:0px 10px 30px rgba(0,0,0,0.15);
-transition:0.4s;
-}
-
-.project-card:hover{
-transform:translateY(-12px);
-}
-
-.project-card img{
-width:100%;
-}
-
-.project-info{
-padding:40px;
-}
-
-.project-info h2{
-color:#0a2342;
-}
-
-.project-info p{
-line-height:1.8;
-}
-
-.tags{
-margin-top:25px;
-}
-
-.tags span{
-background:#0a2342;
-color:white;
-padding:10px 18px;
-border-radius:25px;
-margin-right:10px;
-display:inline-block;
-margin-top:10px;
-}
-
-.button{
-display:inline-block;
-margin-top:35px;
-background:#0066cc;
-color:white;
-padding:15px 30px;
-text-decoration:none;
-border-radius:10px;
-font-weight:bold;
-}
-
-footer{
-background:#081b33;
-color:white;
-text-align:center;
-padding:40px;
-}
-
-</style>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap" rel="stylesheet">
 
 </head>
 
 <body>
 
-<header>
+<!-- Background Stars -->
+<div class="stars"></div>
 
-<div class="hero">
+<!-- Navbar -->
 
-<h1>Charan Reddy</h1>
+<nav>
 
-<h2>CAE Analyst</h2>
+<div class="logo">
+
+CHARAN REDDY
+
+</div>
+
+<ul>
+
+<li><a href="#about">About</a></li>
+
+<li><a href="#expertise">Expertise</a></li>
+
+<li><a href="#" onclick="openProjects()">Projects</a></li>
+
+</ul>
+
+</nav>
+
+
+<!-- Hero Section -->
+
+<section class="hero">
+
+<h1>
+
+CAE ANALYST
+
+</h1>
+
+<h2>
+
+Simulation Driven Engineering Solutions
+
+</h2>
+
+<div class="typing">
+
+<span id="typing-text"></span>
+
+</div>
+
+<a class="explore-btn" href="#about">
+
+Explore
+
+</a>
+
+</section>
+
+
+<!-- About -->
+
+<section id="about">
+
+<div class="glass-card">
+
+<h2>
+
+About Me
+
+</h2>
 
 <p>
 
-Passionate CAE Analyst with strong knowledge of structural FEA and hands-on experience in CAD design, Multibody Dynamics (MBD), dynamic analysis and R&D. Skilled in developing simulation-driven engineering solutions for complex mechanical systems.
+Passionate CAE Analyst with strong knowledge of structural FEA and hands-on experience in CAD design, Multibody Dynamics (MBD), dynamic analysis and engineering R&D. Skilled in developing simulation-driven solutions for complex mechanical systems.
 
 </p>
 
-<div class="location">
+<p>
 
 📍 Bengaluru
 
@@ -170,33 +103,6 @@ Passionate CAE Analyst with strong knowledge of structural FEA and hands-on expe
 
 📧 araveticharan29882@gmail.com
 
-</div>
-
-<div class="scroll">
-
-▼ Scroll Down to Explore My Projects ▼
-
-</div>
-
-</div>
-
-</header>
-
-
-<section>
-
-<h1 class="section-title">
-
-About Me
-
-</h1>
-
-<div class="about">
-
-<p>
-
-I specialize in finite element analysis and simulation-driven product development. My experience includes linear and nonlinear structural analysis, modal analysis, multibody dynamics, hydrostatic bearing modeling, weld assessment and engineering research. I am passionate about solving complex mechanical engineering challenges through CAE methodologies.
-
 </p>
 
 </div>
@@ -205,81 +111,77 @@ I specialize in finite element analysis and simulation-driven product developmen
 
 
 
-<section>
+<!-- Expertise -->
 
-<h1 class="section-title">
+<section id="expertise">
 
-Featured Projects
+<h1>
+
+Expertise
 
 </h1>
 
+<div class="cards">
 
-<div class="project-card">
+<div class="card">
 
-<img src="images/trailer_1.png">
+<h2>
 
-<div class="project-info">
+Structural Analysis
 
-<h2>MBD and FEA of Extendable Trailer</h2>
-
-<p>
-
-Comprehensive structural and multibody dynamics analysis of an extendable trailer under specified load and boundary conditions. The study included static, nonlinear, modal and dynamic analyses to evaluate performance and structural integrity.
-
-</p>
-
-<div class="tags">
-
-<span>HyperMesh</span>
-<span>OptiStruct</span>
-<span>MotionView</span>
-<span>Linear Static</span>
-<span>Nonlinear</span>
-<span>Modal</span>
-<span>MBD</span>
-
-</div>
-
-<a href="trailer_case_study.html" class="button">
-
-View Case Study
-
-</a>
-
-</div>
-
-</div>
-
-
-
-<div class="project-card">
-
-<img src="images/headstock_1.png">
-
-<div class="project-info">
-
-<h2>FEA Analysis of Hydrostatic Lathe Headstock Assembly</h2>
+</h2>
 
 <p>
 
-Structural assessment of a lathe headstock-spindle assembly incorporating hydrostatic radial bearings. The project focused on spindle displacement, pressure distribution in hydrostatic pockets and variation in spindle-headstock clearance.
+Linear Static<br>
+
+Nonlinear Static<br>
+
+Modal Analysis
 
 </p>
 
-<div class="tags">
+</div>
 
-<span>HyperMesh</span>
-<span>HyperView</span>
-<span>Linear Static</span>
-<span>Nonlinear Static</span>
+
+<div class="card">
+
+<h2>
+
+Multibody Dynamics
+
+</h2>
+
+<p>
+
+Motion Simulation<br>
+
+Dynamic Loading<br>
+
+System Performance
+
+</p>
 
 </div>
 
-<a href="headstock_case_study.html" class="button">
 
-View Case Study
+<div class="card">
 
-</a>
+<h2>
+
+Design & R&D
+
+</h2>
+
+<p>
+
+CAD Design<br>
+
+Optimization<br>
+
+Engineering Development
+
+</p>
 
 </div>
 
@@ -288,20 +190,77 @@ View Case Study
 </section>
 
 
-<footer>
+<!-- Overlay Project Page -->
 
-Charan Reddy | CAE Analyst
+<div class="project-overlay" id="projectOverlay">
 
-<br><br>
+<div class="overlay-content">
 
-Bengaluru, India
+<span class="close-btn" onclick="closeProjects()">
 
-<br><br>
+✖
 
-Simulation Driven Engineering Solutions
+</span>
 
-</footer>
+<h1>
 
+Engineering Case Studies
+
+</h1>
+
+
+<div class="project-item">
+
+<h2>
+
+MBD and FEA of Extendable Trailer
+
+</h2>
+
+<p>
+
+HyperMesh | OptiStruct | MotionView
+
+</p>
+
+<a href="trailer_case_study.html">
+
+View Case Study →
+
+</a>
+
+</div>
+
+
+
+<div class="project-item">
+
+<h2>
+
+FEA Analysis of Hydrostatic Lathe Headstock Assembly
+
+</h2>
+
+<p>
+
+HyperMesh | HyperView
+
+</p>
+
+<a href="headstock_case_study.html">
+
+View Case Study →
+
+</a>
+
+</div>
+
+</div>
+
+</div>
+
+
+<script src="script.js"></script>
 
 </body>
 
